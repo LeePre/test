@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="第 1 页" id="XNKXzoV55_QYTFc2lnBu">
+    <mxGraphModel dx="905" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6anajArIO_N43tGL90s0-9" value="R1" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-10" value="R2" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-11" value="R3" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="510" y="240" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-13" value="PC1&lt;div&gt;10.2.1.2/24&lt;/div&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;html=1;pointerEvents=1;dashed=0;fillColor=#003366;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="280.97999999999996" y="110" width="59.02" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-16" value="PC2&lt;div&gt;10.2.2.2/24&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;html=1;pointerEvents=1;dashed=0;fillColor=#003366;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="475" width="59.02" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-17" value="PC3&lt;div&gt;10.2.3.2/24&lt;/div&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;html=1;pointerEvents=1;dashed=0;fillColor=#003366;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="110" width="59.02" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="6anajArIO_N43tGL90s0-13" target="6anajArIO_N43tGL90s0-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="380" as="sourcePoint" />
+            <mxPoint x="390" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-71" value="eth1: 10.2.1.1/24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6anajArIO_N43tGL90s0-20">
+          <mxGeometry x="0.799" y="-2" relative="1" as="geometry">
+            <mxPoint x="-46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="6anajArIO_N43tGL90s0-11" target="6anajArIO_N43tGL90s0-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="260" as="sourcePoint" />
+            <mxPoint x="480" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-73" value="eth1: 10.2.3.1/24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6anajArIO_N43tGL90s0-21">
+          <mxGeometry x="-0.7636" y="1" relative="1" as="geometry">
+            <mxPoint x="49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-23" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6anajArIO_N43tGL90s0-44" target="6anajArIO_N43tGL90s0-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="330" as="sourcePoint" />
+            <mxPoint x="506" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-82" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;eth3: 10.2.10.22/30&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6anajArIO_N43tGL90s0-23">
+          <mxGeometry x="-0.7384" y="2" relative="1" as="geometry">
+            <mxPoint x="14" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-83" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;eth4: 10.2.10.21/30&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6anajArIO_N43tGL90s0-23">
+          <mxGeometry x="0.8537" relative="1" as="geometry">
+            <mxPoint x="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-24" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="6anajArIO_N43tGL90s0-16" target="6anajArIO_N43tGL90s0-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="264" y="443" as="sourcePoint" />
+            <mxPoint x="320" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-72" value="eth1: 10.2.2.1/24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6anajArIO_N43tGL90s0-24">
+          <mxGeometry x="0.8661" y="-1" relative="1" as="geometry">
+            <mxPoint x="-31" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6anajArIO_N43tGL90s0-9" target="6anajArIO_N43tGL90s0-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="300" as="sourcePoint" />
+            <mxPoint x="322.8571428571428" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-75" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;eth1: 10.2.10.10/30&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6anajArIO_N43tGL90s0-26">
+          <mxGeometry x="0.739" y="1" relative="1" as="geometry">
+            <mxPoint x="-5" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-76" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;eth4: 10.2.10.9/30&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6anajArIO_N43tGL90s0-26">
+          <mxGeometry x="-0.8867" y="3" relative="1" as="geometry">
+            <mxPoint x="22" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-25" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6anajArIO_N43tGL90s0-44" target="6anajArIO_N43tGL90s0-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="350" as="sourcePoint" />
+            <mxPoint x="506" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-79" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;eth2: 10.2.10.18/30&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6anajArIO_N43tGL90s0-25">
+          <mxGeometry x="-0.5962" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-80" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;eth4:10.2.10.17/30&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6anajArIO_N43tGL90s0-25">
+          <mxGeometry x="0.8077" y="-1" relative="1" as="geometry">
+            <mxPoint y="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-29" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;10.2.0.0/16&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-44" value="R4" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-48" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6anajArIO_N43tGL90s0-10" target="6anajArIO_N43tGL90s0-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="410" as="sourcePoint" />
+            <mxPoint x="370" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-88" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;eth3: 10.2.10.13/30&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6anajArIO_N43tGL90s0-48">
+          <mxGeometry x="-0.8995" relative="1" as="geometry">
+            <mxPoint x="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-89" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;eth3: 10.2.10.14/30&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6anajArIO_N43tGL90s0-48">
+          <mxGeometry x="0.7925" y="1" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-49" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6anajArIO_N43tGL90s0-9" target="6anajArIO_N43tGL90s0-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="295" as="sourcePoint" />
+            <mxPoint x="370" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-86" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;eth3:10.2.10.5/30&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6anajArIO_N43tGL90s0-49">
+          <mxGeometry x="-0.9142" y="1" relative="1" as="geometry">
+            <mxPoint x="28" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-87" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;eth2: 10.2.10.6/30&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6anajArIO_N43tGL90s0-49">
+          <mxGeometry x="0.4565" y="1" relative="1" as="geometry">
+            <mxPoint x="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-50" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6anajArIO_N43tGL90s0-10" target="6anajArIO_N43tGL90s0-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="390" as="sourcePoint" />
+            <mxPoint x="210" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-84" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;eth2: 10.2.10.1/30&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6anajArIO_N43tGL90s0-50">
+          <mxGeometry x="0.7956" y="1" relative="1" as="geometry">
+            <mxPoint x="-14" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6anajArIO_N43tGL90s0-85" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;eth2: 10.2.10.2/30&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6anajArIO_N43tGL90s0-50">
+          <mxGeometry x="-0.8953" y="2" relative="1" as="geometry">
+            <mxPoint x="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
